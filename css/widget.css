@@ -1,20 +1,14 @@
-.waf-widget.waf-basicmulticontainer {
-
+.waf-widget.waf-basicmulticontainer>.waf-widget.waf-basiccontainer {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: #f66;
+    display: none;
 }
 
-.waf-widget.waf-basicmulticontainer .waf-container { 
-	height:100%;
-	display:none;
- }
+.waf-widget.waf-basicmulticontainer>.waf-widget.waf-basiccontainer+.waf-widget.waf-basiccontainer {
+    background: #66f;
+}
 
-.waf-widget.waf-basicmulticontainer .waf-container.waf-state-active{ 
-	display:block;	
- }
-
-.waf-widget.waf-basicmulticontainer .waf-container:nth-child(1) { 
-	background: red; 
- }
-
-.waf-widget.waf-basicmulticontainer .waf-container:nth-child(2) { 
-	background: blue; 
+.waf-widget.waf-basicmulticontainer>.waf-widget.waf-basiccontainer.waf-state-active {
+    display: block;
 }

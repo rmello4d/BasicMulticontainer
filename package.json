@@ -2,19 +2,21 @@
     "name": "BasicMulticontainer",
     "author": "Widget Developer",
 	"contributors": [
-	    "Ricardo Mello"
+	    "Developer 1", 
+	    "Developer 2"
 	],
     "version": "1.0.0",
     "copyright": "(c) 2013 Widget Developer",
 	"repository": {
-	    "type": "wakanda",
-	    "url": "http/wakanda.org"
+	    "type": "git",
+	    "url": "https://github.com/developer/Widget.git"
 	},
 	"keywords": ["wakanda", "widget"],
 	"engines": {"wakanda" : ">= 6"},
 	"license": "MIT", 
     "loadDependencies": [
     	{"id": "Widget_V2"},
+    	{"id": "BasicContainer"},
         {"id": "BasicMulticontainer/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "BasicMulticontainer/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
         {"id": "BasicMulticontainer/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
